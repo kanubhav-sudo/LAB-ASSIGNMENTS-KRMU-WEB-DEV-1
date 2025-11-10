@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anubhav Kashyap | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="about">
+    <h1>My Portfolio</h1>
+    <h2>About Me</h2>
+    <img src="Anubhav.JPEG" alt="Anubhav Kashyap">
+    <p>Hello! My name is <strong>Anubhav Kashyap</strong>. I am a first-year B.Tech student specializing in Artificial Intelligence and Machine Learning. I’m passionate about web development and programming — this is my personal portfolio website.</p>
+  </header>
+
+  <hr>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Intermediate</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>A simple HTML & CSS webpage.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Another awesome mini project using JavaScript.</p>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" placeholder="Enter your name" required>
+
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Message:</label>
+      <textarea placeholder="Write your message"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <button id="topBtn" onclick="window.scrollTo({top:0, behavior:'smooth'});">↑ Back to Top</button>
+  </section>
+
+</body>
+</html>
