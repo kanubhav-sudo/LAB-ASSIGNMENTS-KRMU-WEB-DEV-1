@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style03.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">My Portfolio</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="intro" class="intro-section">
+    <div class="intro-content">
+      <h1 class="animated-text">Hi, I am</h1>
+      <h1  class="animated-text">Aman Kumar</h1>
+      <h2 class="animated-text">Full Stack Developer</h2>
+      <p>Building My Personal Portfolio Website.</p>
+    </div>
+    <div class="Profile-picture">
+      <img src="/Photo.jpg" alt="Profile Picture" width="350px" height="350px"> 
+    </div>
+  </section>
+  <section id="about" class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+      Hello! My name is Aman Kumar , and I am currently learning web development. This is my first portfolio website where I showcase my passion for creating interactive and responsive web pages. I am a student at KR Mangalam University, pursuing a B.Tech degree. I love exploring new skills every day and am determined to grow as a developer.
+    </p>
+  </section>
+  <section id="skills" class="container">
+    <h2 class="section-title">My Skills</h2>
+    <div class="grid-container">
+      <div class="card skill-card">
+        <h3>HTML</h3>
+        <p>Beginner</p>
+      </div>
+      <div class="card skill-card">
+        <h3>CSS</h3>
+        <p>Beginner</p>
+      </div>
+      <div class="card skill-card">
+        <h3>JavaScript</h3>
+        <p>Learning</p>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="container">
+    <h2 class="section-title">My Projects</h2>
+    <div class="grid-container projects-grid">
+      <div class="card project-card">
+        <h3>Project 1</h3>
+        <p>A simple HTML & CSS webpage.</p>
+      </div>
+      <div class="card project-card">
+        <h3>Project 2</h3>
+        <p>Another awesome mini project.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="container">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-form-wrapper">
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" rows="4" placeholder="Write your message"></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; Aman Kumar . All rights reserved.</p>
+    <a href="#" class="back-to-top">↑ Back to Top</a>
+  </footer>
+
+</body>
+</html>
